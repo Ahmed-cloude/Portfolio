@@ -29,11 +29,11 @@ import Image from 'next/image'
                     </div>
                     <Icons/>
                 </div>
-                <div className="spiner w-[310px] h-[310px] rounded-full flex justify-center items-center border-green-500 border-[10px] border-dashed  max-[640px]:w-[290px] max-[640px]:h-[290px] max-[350px]:w-[270px] max-[350px]:h-[270px]">
-                    <div className=" w-[290px] h-[290px] bg-[url(/images/file_000000000f1461f4ab74f6969b8f97d3.png)] bg-cover rounded-full max-[640px]:w-[270px] max-[640px]:h-[270px] max-[350px]:w-[250px] max-[350px]:h-[250px]">
-                    
+                
+                    <div className=" flex justify-center items-center w-[300px] h-[300px] bg-[url(/images/file_000000000f1461f4ab74f6969b8f97d3.png)] bg-cover rounded-full max-[640px]:w-[270px] max-[640px]:h-[270px] max-[350px]:w-[250px] max-[350px]:h-[250px]">
+                        <div className="spiner w-[310px] h-[310px] rounded-full  border-green-500 border-[10px] border-dashed  max-[640px]:w-[290px] max-[640px]:h-[290px] max-[350px]:w-[270px] max-[350px]:h-[270px]"></div>
                     </div>
-                </div>
+                
             </div>
         </div>
     )
